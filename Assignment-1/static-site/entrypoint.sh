@@ -3,9 +3,9 @@
 HOUR=$(date +%H)
 
 if [ "$HOUR" -ge 10 ] && [ "$HOUR" -lt 12 ]; then
-  NAME="Mohan"
+  NAME="Rajshekhar"
 elif [ "$HOUR" -ge 16 ] && [ "$HOUR" -lt 18 ]; then
-  NAME="Pankaj"
+  NAME="Deepak"
 else
   NAME="-- Inactive Hours --"
 fi
